@@ -1,0 +1,44 @@
+# repositories
+tap "minio/stable"
+
+brew "composer"
+brew "curl"
+brew "dnsmasq"
+brew "freetds"
+brew 'freetype'
+brew "git"
+brew "htop"
+brew "ipmitool"
+brew "jq"
+brew "mas"
+brew 'minio'
+brew 'minio-mc'
+brew "mtr"
+brew "nginx"
+brew "nmap"
+brew "node"
+brew "php"
+brew "php@7.2"
+brew "postgresql"
+brew "postgresql@11"
+brew "redis"
+brew "ripgrep"
+brew "siege"
+brew "sqlite"
+brew "unrar"
+brew "wget"
+brew "xz"
+brew "yarn"
+brew "zsh-syntax-highlighting"
+
+cask 'docker'
+cask 'firefox'
+cask 'gpg-suite'
+cask 'insomnia'
+cask 'phpstorm'
+cask 'slack'
+
+cask 'qlcolorcode'
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'quicklook-csv'
