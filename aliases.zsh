@@ -28,7 +28,7 @@ alias gc="git checkout"
 alias gd="git diff"
 alias resolve="git add . && git commit --no-edit"
 alias gl="git log --oneline --decorate --color"
-alias nuke="git clean -df && git reset --hard"
+alias nah="git reset --hard && git clean -df"
 
 # MACOS
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"

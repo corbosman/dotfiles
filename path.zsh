@@ -9,3 +9,6 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 
 # sbin
 export PATH="$PATH:/usr/local/sbin"
+
+# brew
+export PATH="$PATH:/usr/local/var/homebrew/linked"
