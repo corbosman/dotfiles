@@ -110,3 +110,6 @@
 	required = true
 [diff "sopsdiffer"]
 	textconv = sops -d
+[pager]
+	branch = false
+	tag = false

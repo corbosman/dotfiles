@@ -32,6 +32,8 @@ alias nah="git reset --hard && git clean -df"
 
 # MACOS
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
+alias throttle="pmset -g thermlog"
 
 # SSH
 alias hass="ssh 192.168.1.110"
+alias chat="ssh en.ter.net"
