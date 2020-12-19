@@ -35,6 +35,7 @@ alias nah="git reset --hard && git clean -df"
 # MACOS
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias throttle="pmset -g thermlog"
+alias ibrew="/usr/local/Homebrew/bin/brew"
 
 # SSH
 alias hass="ssh 192.168.1.110"

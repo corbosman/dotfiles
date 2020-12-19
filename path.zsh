@@ -11,6 +11,4 @@ export PATH="node_modules/.bin:vendor/bin:$PATH"
 export PATH="$PATH:/usr/local/sbin"
 
 # brew
-export PATH="$PATH:/usr/local/var/homebrew/linked"
-
-export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/usr/local/Homebrew/bin:/usr/local/Homebrew/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:$PATH"
