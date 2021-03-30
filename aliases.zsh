@@ -32,6 +32,11 @@ alias resolve="git add . && git commit --no-edit"
 alias gl="git log --oneline --decorate --color"
 alias nah="git reset --hard && git clean -df"
 
+tag() {
+    echo git tag -a $1 -m $1
+    echo git push --tags 
+}
+
 # MACOS
 alias flush="dscacheutil -flushcache && killall -HUP mDNSResponder"
 alias throttle="pmset -g thermlog"
